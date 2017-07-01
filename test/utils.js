@@ -9,7 +9,8 @@ var add = function () {
 
 names = ['aobin','aobowei22'];
 
-
+student = {name:"student"};
 
 module.exports.add = add;
 module.exports.names =names;
+module.exports.student = student;
