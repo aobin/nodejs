@@ -13,7 +13,7 @@ console.log(utils.names[1]);
 
 //test hint
 var add= function(a,b){return a+b}
-var a = {name:"aobin",age:1,title:"boss"};
+var a = {name:"aobin",age:1,title:"boss111"};
 console.log(a);
 console.log(a.name);
 console.log(utils.student);
