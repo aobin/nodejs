@@ -3,7 +3,7 @@
  */
 
 var add = function () {
-    console.log('haha');
+    //console.log('haha');
 };
 
 names = ['aobin','aobowei'];
