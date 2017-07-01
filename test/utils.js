@@ -6,7 +6,9 @@ var add = function () {
     //console.log('haha');
 };
 
-names = ['aobin','aobowei00'];
+
+names = ['aobin','aobowei22'];
+
 
 
 module.exports.add = add;
