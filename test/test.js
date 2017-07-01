@@ -15,5 +15,6 @@ console.log(utils.names[1]);
 var add= function(a,b){return a+b}
 var a = {name:"aobin",age:1,title:"boss"};
 console.log(a);
+console.log(a.name);
 console.log(utils.student);
 
