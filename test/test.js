@@ -11,7 +11,7 @@ console.log(utils.add());
 console.log(utils.names.length);
 console.log(utils.names[1]);
 
-//for some test
+//test hint
 var add= function(a,b){return a+b}
 var a = {name:"aobin",age:1,title:"boss"};
 console.log(a);
