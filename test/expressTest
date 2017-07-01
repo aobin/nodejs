@@ -1,0 +1,20 @@
+var express = require('express');
+var server = express();
+
+var aobin={name:'aobin',age:10};
+
+server.get('/',function (request, response) {
+    response.send('hello');
+});
+
+server.get('/aobin',function (request, response) {
+    response.send(aobin);
+});
+
+server.get('/aobin/:param',function (request, response) {
+    response.send("your param is : "+request.params.param);
+});
+
+
+server.listen(3000);
+
