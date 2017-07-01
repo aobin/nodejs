@@ -1,0 +1,12 @@
+var events = require('events');
+
+var eventEmitter = new events.EventEmitter();
+
+eventEmitter.on('aobin',function () {
+    console.log("aobin event is triggered!")
+});
+
+setTimeout(function () {
+    eventEmitter.emit('aobin');
+},2000)
+
