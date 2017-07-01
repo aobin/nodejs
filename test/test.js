@@ -11,6 +11,6 @@ console.log(utils.add());
 console.log(utils.names.length);
 console.log(utils.names[1]);
 
-console.log("1111");
+//console.log("1111");
 
 
