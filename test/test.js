@@ -12,5 +12,6 @@ console.log(utils.names.length);
 console.log(utils.names[1]);
 
 //console.log("1111");
-
+var a = {name:"aobin",age:1};
+console.log(a);
 
