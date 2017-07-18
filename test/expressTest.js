@@ -12,9 +12,17 @@ server.get('/aobin',function (request, response) {
 });
 
 server.get('/aobin/:param',function (request, response) {
-    response.send("your param is : "+request.params.param);
+    response.send("your param issss : "+request.params.param);
 });
 
+server.use('/v', function (req, res) {
+
+    //res.end('86');
+    res.set('resultCode', '6001').set('data','haha')
+        .status(400).json({msg: 'test'});
+    return;
+
+});
 
 server.listen(3000);
 
